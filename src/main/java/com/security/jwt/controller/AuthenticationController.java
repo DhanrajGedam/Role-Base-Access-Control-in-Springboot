@@ -27,7 +27,6 @@ public class AuthenticationController {
     public ResponseEntity<JwtAuthenticationResponse> login(@RequestBody LoginRequest loginRequest) {
         return ResponseEntity.ok(authenticationService.login(loginRequest));
     }
-
 }
 
 

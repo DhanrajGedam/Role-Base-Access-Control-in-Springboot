@@ -17,11 +17,11 @@ public class RegisterRequest {
     private String lastName;
     private String email;
     private String password;
-  //  private Role role;
+    private Role role;
     //new added 
     private String division;
     private String department;
     private String module;// if needed change data type
     private String middleName;
-     @Default private String role = "user";
+    //@Default private String role = "user";
 }
