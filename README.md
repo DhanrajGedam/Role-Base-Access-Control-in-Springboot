@@ -1,4 +1,4 @@
-Role Base Access System
+Role Base Access Control.
 This is a JWT Authentication System built with Java, Spring Boot, Spring Security, and MySQL. The system demonstrates user registration, login, and role-based access for both Admin and User roles. JWT tokens are used to authenticate and authorize users.
 
 Features
@@ -44,10 +44,3 @@ How It Works
 Registration: Users send a POST request with their details to the /register endpoint.
 Login: After registration, users send their email and password to /login to receive a JWT token.
 Accessing Routes: Users include the JWT token in the Authorization header to access restricted routes.
-HR Validation
-This project demonstrates key concepts such as:
-
-Spring Boot security and JWT-based authentication.
-Role-based access control (RBAC).
-Database integration with MySQL.
-Clean and maintainable code following industry standards.
